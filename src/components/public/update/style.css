@@ -1,0 +1,55 @@
+.update {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+.updateForm {
+  width: 730px;
+  margin-top: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding: 40px;
+}
+.updateHeader {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: #212529;
+}
+.updateLabel {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  color: #212529;
+}
+.updateInp {
+  width: 640px;
+  height: 38px;
+  margin-top: 5px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding-left: 10px;
+}
+.updateBtnInp {
+  width: 640px;
+  height: 38px;
+  background: #343a40;
+  border: 1px solid #343a40;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+}
+.updateItem {
+  margin: 15px 0;
+}
+.is-danger{
+  color: crimson;
+}

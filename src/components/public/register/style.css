@@ -1,0 +1,107 @@
+.register {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+.registerForm {
+  width: 540px;
+  padding: 0 45px 65px 45px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 0px;
+  margin-top: 40px;
+}
+.registerHeader {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.regHead {
+  width: 158px;
+  color: #212529;
+}
+.regHead h1 {
+  margin: 0 0 0 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+}
+.regText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;  
+  color: #212529;
+}
+.validationError {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;  
+  color: #dc3545;
+}
+.regButton {
+  width: 450px;
+  height: 38px;
+  background: #e05433;
+  border: 1px solid #e05433;
+  box-sizing: border-box;
+  border-radius: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.regButton input {
+  background: #e05433;
+  color: #ffffff;
+  border: none;
+  margin-top: 9px;
+}
+.regRadio p {
+  display: inline;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;  
+  color: #212529;
+}
+.regInputs label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;  
+  color: #212529;
+  margin: 10px 0;
+}
+.regInputs input {
+  width: 450px;
+  height: 38px;
+  left: 727px;
+  top: 301px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+.regRadio {
+  width: 450px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
